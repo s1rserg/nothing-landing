@@ -4,7 +4,8 @@
   background-color: $background-color;
 
   &__content {
-    padding-inline: 20px;
+    @include content-padding-inline;
+
     margin-top: 32px;
     display: flex;
     flex-direction: column;

@@ -1,5 +1,7 @@
 .top-bar {
-  padding: 24px 20px;
+  @include content-padding-inline;
+
+  padding: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,6 +9,10 @@
   &__logo {
     height: 16px;
     display: block;
+
+    @include on-tablet {
+      height: 24px;
+    }
   }
 
   &__icons {
