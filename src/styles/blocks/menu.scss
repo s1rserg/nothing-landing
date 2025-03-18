@@ -1,0 +1,37 @@
+.menu {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: $background-color;
+
+  &__content {
+    padding-inline: 20px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__nav {
+    margin-bottom: 48px;
+  }
+
+  &__link {
+    @include bold-text;
+
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    text-decoration: none;
+    color: inherit;
+
+    &--phone-number {
+      margin-bottom: 16px;
+    }
+
+    &--call-to-order {
+      width: fit-content;
+      border-bottom: 1px solid $text-color;
+    }
+  }
+}

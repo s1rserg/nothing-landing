@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 32px;
+  }
+
+  &__link {
+    @include bold-text;
+
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 2px;
+
+    text-decoration: none;
+    color: inherit;
+  }
+}

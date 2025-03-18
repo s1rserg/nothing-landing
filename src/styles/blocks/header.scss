@@ -1,0 +1,23 @@
+.header {
+  box-sizing: border-box;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-image: url(../images/header-image.png);
+  background-size: cover;
+  background-position: center;
+
+  &__bottom {
+    padding: 0 20px 40px;
+  }
+
+  &__title {
+    @include bold-text;
+
+    margin: 0;
+    font-size: 36px;
+  }
+}
