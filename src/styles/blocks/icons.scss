@@ -42,9 +42,15 @@
     transition: transform $effect-duration;
     transform-origin: right;
     transform: scale(0);
+
+    @media (min-width: 1260px) {
+      background-color: #f1f3f1;      ;
+      border-radius: 4px;
+      padding-inline: 4px;
+    }
   }
 
-  @include on-desktop {
+  @include on-tablet {
     &:hover + &__tooltip {
       transform: scale(1);
     }

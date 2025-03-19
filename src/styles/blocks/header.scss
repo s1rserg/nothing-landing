@@ -1,18 +1,17 @@
 .header {
-  box-sizing: border-box;
-  height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
   background-image: url(../images/header-image.png);
   background-size: cover;
   background-position: center;
 
-  &__bottom {
-    @include content-padding-inline;
+  &__content {
+    height: 100vh;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__bottom {
     padding-bottom: 40px;
   }
 

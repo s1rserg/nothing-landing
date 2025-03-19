@@ -10,10 +10,8 @@
       margin-bottom: 56px;
     }
   }
-
-  &__content {
-    @include content-padding-inline;
-    
+  
+  &__bottom {
     display: flex;
     flex-direction: column;
   }

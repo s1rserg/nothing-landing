@@ -10,11 +10,20 @@
   font-weight: 700;
 }
 
+h3, p{
+  margin: 0;
+}
+
 @import "utils/variables";
 @import "utils/mixins";
 @import "blocks/page";
+@import "blocks/container";
 @import "blocks/header";
 @import "blocks/icons";
 @import "blocks/top-bar";
 @import "blocks/menu";
 @import "blocks/nav";
+@import "blocks/main";
+@import "blocks/recommended";
+@import "blocks/section-title";
+@import "blocks/product";
