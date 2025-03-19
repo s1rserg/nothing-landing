@@ -26,5 +26,10 @@
       max-width: 392px;
       font-size: 48px;
     }
+
+    @include on-desktop {
+      max-width: 498px;
+      font-size: 56px;
+    }
   }
 }
