@@ -10,7 +10,8 @@
   font-weight: 700;
 }
 
-h3, p{
+h3,
+p {
   margin: 0;
 }
 
@@ -27,3 +28,9 @@ h3, p{
 @import "blocks/recommended";
 @import "blocks/section-title";
 @import "blocks/product";
+@import "blocks/categories";
+@import "blocks/category";
+@import "blocks/about-us";
+@import "blocks/contact-us";
+@import "blocks/form";
+@import "blocks/contacts";
