@@ -16,18 +16,6 @@
   }
 
   &__view-all {
-    @include bold-text;
-
-    height: 56px;
-    border-radius: 8px;
-    font-size: 16px;
-    line-height: 56px;
-    text-align: center;
-
-    text-decoration: none;
-    background-color: $text-color;
-    color: #fff;
-
     @include on-desktop{
       max-width: 324px;
     }

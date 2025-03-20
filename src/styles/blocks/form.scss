@@ -23,8 +23,13 @@
       width: 411px;
     }
 
-    // &:hover {
-    // }
+    &::placeholder {
+      color: #7e7e83;
+    }
+
+    &:hover {
+      border: 1px solid #d5d7de;
+    }
 
     // &:active,
     // &:focus {
@@ -46,6 +51,10 @@
     border: 1px solid #f8f8fa;
     margin-bottom: 16px;
 
+    &::placeholder {
+      color: #7e7e83;
+    }
+
     @include on-tablet {
       width: 600px;
     }
@@ -54,24 +63,12 @@
       width: 411px;
     }
 
-    // &:hover {
-    // }
+    &:hover {
+      border: 1px solid #d5d7de;
+    }
 
     // &:active,
     // &:focus {
     // }
-  }
-
-  &__button {
-    height: 56px;
-    background-color: #f8f8fa;
-    border-radius: 8px;
-    border: 2px solid #f0f1f4;
-
-    @include bold-text;
-    
-    font-size: 16px;
-    line-height: 56px;
-    text-align: center;
   }
 }

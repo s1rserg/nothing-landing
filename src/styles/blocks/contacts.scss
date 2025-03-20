@@ -25,5 +25,7 @@
     font-size: 16px;
     line-height: 140%;
     color: #191919;
+
+    @include on-hover(color, #9393a3);
   }
 }
