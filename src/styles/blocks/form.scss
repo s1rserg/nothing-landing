@@ -16,11 +16,7 @@
     border: 1px solid #f8f8fa;
 
     @include on-tablet {
-      width: 600px;
-    }
-
-    @include on-desktop {
-      width: 411px;
+      width: 100%;
     }
 
     &::placeholder {
@@ -31,9 +27,10 @@
       border: 1px solid #d5d7de;
     }
 
-    // &:active,
-    // &:focus {
-    // }
+    &:active,
+    &:focus {
+      border: 1px solid #292929;
+    }
   }
 
   &__big {
@@ -56,19 +53,20 @@
     }
 
     @include on-tablet {
-      width: 600px;
-    }
-
-    @include on-desktop {
-      width: 411px;
+      width: 100%;
     }
 
     &:hover {
       border: 1px solid #d5d7de;
     }
 
-    // &:active,
-    // &:focus {
-    // }
+    &:active,
+    &:focus {
+      border: 1px solid #292929;
+    }
+  }
+
+  &__button{
+    width: 100%;
   }
 }
