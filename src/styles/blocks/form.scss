@@ -7,7 +7,7 @@
     box-sizing: border-box;
     padding-left: 16px;
     height: 48px;
-    width: 280px;
+    min-width: 280px;
     font-family: "Space Mono", Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 140%;
@@ -36,7 +36,7 @@
   &__big {
     box-sizing: border-box;
     padding: 14px 16px;
-    width: 280px;
+    min-width: 280px;
     height: 148px;
 
     font-family: "Space Mono", Arial, Helvetica, sans-serif;
