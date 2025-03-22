@@ -30,29 +30,34 @@
   &__tooltip {
     position: absolute;
     right: calc(100% + 8px);
-    width: max-content;
+    width: 139px;
 
-    @include bold-text;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-weight: 700;
 
     font-size: 12px;
     line-height: 32px;
     letter-spacing: 2px;
+    text-align: right;
+    vertical-align: middle;
     text-transform: uppercase;
 
-    transition: transform $effect-duration;
-    transform-origin: right;
-    transform: scale(0);
+    text-decoration: none;
+    color: inherit;
 
-    @include on-desktop {
-      background-color: #f1f3f1;
-      border-radius: 4px;
-      padding-inline: 4px;
+    transition: opacity $effect-duration;
+    opacity: 0;
+
+    @include on-tablet {
+      &:hover {
+        opacity: 1;
+      }
     }
   }
 
   @include on-tablet {
     &:hover + &__tooltip {
-      transform: scale(1);
+      opacity: 1;
     }
   }
 }
