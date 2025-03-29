@@ -26,4 +26,4 @@ View the design mockup for the landing page [here](https://www.figma.com/design/
 - BEM naming convention for scalable and maintainable code
 
 ## Installation:
-Clone this repository and open `index.html` in your browser to see the landing page in action.
+Clone this repository, run `npm i` and `npm start` and the landing page will open in your browser.
